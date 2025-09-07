@@ -88,9 +88,6 @@ const displayWordDetails = (word) => {
 
 
 
-
-
-
 const displayLevelWord = (words) => {
     const wordContainer = document.getElementById("word-container");
     wordContainer.innerHTML = ` `;
@@ -168,3 +165,6 @@ document.getElementById("btn-search").addEventListener("click", () => {
             displayLevelWord(filterWords);
         })
 })
+
+
+
